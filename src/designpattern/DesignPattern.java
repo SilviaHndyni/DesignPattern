@@ -51,13 +51,9 @@ public class DesignPattern {
         matakuliah ti= new Teknologi_Informasi();
         matakuliah si= new Sistem_Informasi();
         matakuliah ilkom= new Ilmu_Komputer();
-        matakuliah tekpen= new Teknologi_pendidikan();
+        matakuliah tekpen= new Teknologi_Pendidikan();
         semestertemplate sm = new semestertemplate();
         
-        int s = 0; 
-        do{
-            
-            s++;
         Scanner scan= new Scanner(System.in);
         System.out.println("Menu Prodi");
         System.out.println("1.Teknologi Informasi");
@@ -187,7 +183,6 @@ public class DesignPattern {
         }
                            
     }
-        }while(s==4);
             }
         }
 
