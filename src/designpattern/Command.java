@@ -10,5 +10,5 @@ package designpattern;
  * @author ELDI
  */
 public interface Command {
-    
+    void execute();
 }
