@@ -9,6 +9,13 @@ package designpattern;
  *
  * @author ELDI
  */
-public class semester_1 {
-    
+public class semester_1 implements Command{
+      private matakuliah mk;
+    public semester_1(matakuliah mk){
+        this.mk=mk;
+    }
+    @Override
+    public void execute() {
+        this.mk.semester_1();
+    } 
 }
