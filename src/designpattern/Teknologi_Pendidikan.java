@@ -9,7 +9,7 @@ package designpattern;
  *
  * @author ELDI
  */
-public class Terknologi_Pendidikan implements matakuliah{
+public class Teknologi_Pendidikan implements matakuliah{
 
     @Override
     public void semester_1() {
