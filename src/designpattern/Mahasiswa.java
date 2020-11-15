@@ -11,5 +11,13 @@ package designpattern;
  */
 public final class Mahasiswa {
     //deklarasi variabel
-   
+    private static Mahasiswa instance; // mendeklarasikan instance
+    public String semester, dospem;
+    
+    // mengambil data
+    private Mahasiswa(String semester, String dospem) {
+      this.semester = semester;
+      this.dospem = dospem;
+    }
+
 }
