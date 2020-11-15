@@ -42,7 +42,45 @@ public class DesignPattern {
                 sems = input.next();
                 System.out.println("Dospem : ");
                 dospem = input.next();
-                
+
+                Mahasiswa objMahasiswa = Mahasiswa.getInstance(sems, dospem);
+
+                while (menu != 0) {
+                    System.out.println("\t MENU");
+                    System.out.println("0. Exit");
+                    System.out.println("1. Perubahan Semester");
+                    System.out.println("2. Perubahan Dospem");
+                    System.out.println("3. Lihat data mahasiswa");
+                    menu = input.nextInt();
+                    switch (menu) {
+                        case 0:
+                            System.out.println("Exiting");
+                            break;
+                        case 1:
+                            System.out.println("Masukkan Perubahan Semester : ");
+                            sems = input.next();
+                            objMahasiswa.semester = sems;
+                            System.out.println("Semester berubah...");
+                            break;
+                        case 2:
+                            System.out.println("Masukkan Perubahan Dospem : ");
+                            dospem = input.next();
+                            objMahasiswa.dospem = dospem;
+                            System.out.println("Dospem diganti...");
+                            break;
+                        case 3:
+                            for (int i = 0; i < nama.length; i++) {
+                                System.out.println("Nama : " + nama[i] + "\nNim : " + nim[i]);
+                            }
+                            System.out.println("Semester sekarang adalah : " + objMahasiswa.semester);
+                            System.out.println("Dospem sekarang adalah : " + objMahasiswa.dospem);
+                            break;
+                        default:
+                            System.out.println("Invalid Option");
+                            break;
+                    }
+                }
+
             } else if (pilihan == 2) {
                 System.out.println("\n-------Command Pattern-------");
 
