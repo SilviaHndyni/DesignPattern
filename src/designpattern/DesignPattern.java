@@ -22,6 +22,8 @@ public class DesignPattern {
             System.out.print("Masukkan pilihan design pattern : ");
             pilihan = input.nextInt();
             if (pilihan == 1) {
+                System.out.println("\n-------Command Pattern-------");
+
                 System.out.println("Masukkan Jumlah Mahasiswa : ");
                 int jlhMHS = input.nextInt();
 
