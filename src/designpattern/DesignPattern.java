@@ -18,7 +18,7 @@ public class DesignPattern {
             System.out.println("-----------Design Pattern-----------");
             System.out.println("1. Singleton Pattern");
             System.out.println("2. Command Pattern");
-            System.out.println("3. Builder Pattern");
+            System.out.println("3. Template Method Pattern");
             System.out.print("Masukkan pilihan design pattern : ");
             pilihan = input.nextInt();
             if (pilihan == 1) {
