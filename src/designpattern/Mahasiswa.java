@@ -11,21 +11,5 @@ package designpattern;
  */
 public final class Mahasiswa {
     //deklarasi variabel
-    private static Mahasiswa instance; // mendeklarasikan instance
-    public String Nama;
-    public int NIM, JmlhSKS;
-    
-    // mengambil data
-    private Mahasiswa(String Nama, int NIM, int JmlhSKS) {
-      this.Nama = Nama;
-      this.NIM = NIM;
-      this.JmlhSKS = JmlhSKS;
-    }
-
-    public static Mahasiswa getInstance(String Nama, int NIM, int JmlhSKS) {
-        if (instance == null) {
-            instance = new Mahasiswa(Nama, NIM, JmlhSKS);
-        }
-        return instance;
-    }
+   
 }
