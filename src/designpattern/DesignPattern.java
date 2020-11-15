@@ -22,7 +22,7 @@ public class DesignPattern {
             System.out.print("Masukkan pilihan design pattern : ");
             pilihan = input.nextInt();
             if (pilihan == 1) {
-                System.out.println("\n-------Command Pattern-------");
+                System.out.println("\n-------Singleton Pattern-------");
 
                 System.out.println("Masukkan Jumlah Mahasiswa : ");
                 int jlhMHS = input.nextInt();
@@ -81,6 +81,7 @@ public class DesignPattern {
                             System.out.println("Invalid Option");
                             break;
                     }
+                    System.out.println();
                 }
 
             } else if (pilihan == 2) {
@@ -224,8 +225,14 @@ public class DesignPattern {
                         command.execute();
                     }
                 }
+                
             } else if (pilihan == 3) {
                 System.out.println("\n-------Template Method Pattern-------");
+                System.out.println("====Perbedaan Dosen dengan Guru====");
+                Dosen dosen = new Dosen();
+                dosen.tampil();
+                Guru guru = new Guru();
+                guru.tampil();
                 System.out.println();
             }
         }
