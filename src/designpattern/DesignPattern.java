@@ -37,6 +37,11 @@ public class DesignPattern {
                 for (int i = 0; i < nama.length; i++) {
                     System.out.println("Nama : " + nama[i] + "\nNim : " + nim[i]);
                 }
+
+                System.out.println("Semester : ");
+                sems = input.next();
+                System.out.println("Dospem : ");
+                dospem = input.next();
                 
             } else if (pilihan == 2) {
                 System.out.println("\n-------Command Pattern-------");
