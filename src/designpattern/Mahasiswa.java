@@ -20,4 +20,10 @@ public final class Mahasiswa {
       this.dospem = dospem;
     }
 
+    public static Mahasiswa getInstance(String semester, String dospem) {
+        if (instance == null) {
+            instance = new Mahasiswa(semester, dospem);
+        }
+        return instance;
+    }
 }
