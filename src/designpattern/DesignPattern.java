@@ -1,5 +1,23 @@
 package designpattern;
 
+import designpattern.TemplateMethod_Pattern.Guru;
+import designpattern.TemplateMethod_Pattern.Dosen;
+import designpattern.Command_Pattern.SemesterTemplate;
+import designpattern.Command_Pattern.Sistem_Informasi;
+import designpattern.Command_Pattern.Command;
+import designpattern.Command_Pattern.Ilmu_Komputer;
+import designpattern.Command_Pattern.Teknologi_Pendidikan;
+import designpattern.Command_Pattern.Teknologi_Informasi;
+import designpattern.Command_Pattern.matakuliah;
+import designpattern.Command_Pattern.semester_8;
+import designpattern.Command_Pattern.semester_7;
+import designpattern.Command_Pattern.semester_6;
+import designpattern.Command_Pattern.semester_5;
+import designpattern.Command_Pattern.semester_4;
+import designpattern.Command_Pattern.semester_3;
+import designpattern.Command_Pattern.semester_2;
+import designpattern.Command_Pattern.semester_1;
+import designpattern.Singleton_Pattern.Mahasiswa;
 import java.util.Scanner;
 
 public class DesignPattern {

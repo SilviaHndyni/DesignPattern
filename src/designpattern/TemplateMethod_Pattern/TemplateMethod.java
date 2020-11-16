@@ -1,4 +1,4 @@
-package designpattern;
+package designpattern.TemplateMethod_Pattern;
 
 public abstract class TemplateMethod {
     public final void tampil() {

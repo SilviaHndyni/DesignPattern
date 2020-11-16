@@ -1,4 +1,4 @@
-package designpattern;
+package designpattern.TemplateMethod_Pattern;
 
 public class Guru extends TemplateMethod{
     @Override
